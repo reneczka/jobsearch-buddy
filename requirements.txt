@@ -1,0 +1,11 @@
+requests
+pydantic
+click
+python-dotenv
+pyairtable
+rapidfuzz
+beautifulsoup4
+lxml
+tenacity
+rich
+pyyaml

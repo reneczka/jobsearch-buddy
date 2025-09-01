@@ -1,0 +1,16 @@
+airtable:
+  api_key_env: AIRTABLE_API_KEY
+  base_id_env: AIRTABLE_BASE_ID
+  sources_table: Sources
+  offers_table: Filtered Offers
+llm:
+  provider: openai  # options: openai | ollama | none
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  max_tokens: 200
+filtering:
+  min_score: 60
+  max_jobs_per_run: 50
+profile_file: config/profile.yaml
+cache_db: cache.sqlite3
+logs_dir: logs

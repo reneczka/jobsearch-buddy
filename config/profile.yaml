@@ -1,0 +1,16 @@
+profile:
+  skills:
+    required: ["Python"]
+    preferred: ["FastAPI", "Django", "PostgreSQL", "JavaScript", "Streamlit"]
+    bonus: ["Docker", "Git", "Web Scraping", "Playwright", "SQLAlchemy", "OpenAI API", "Data Analysis", "Pandas", "Swift", "Chrome Extensions"]
+  experience:
+    level: "junior"
+    years_min: 0
+    years_max: 3
+  preferences:
+    remote_ok: true
+    locations: ["Remote", "Warsaw", "Poland", "Krakow", "Wroclaw", "Gdansk"]
+    company_size: ["startup", "small", "medium"]
+  exclusions:
+    titles: ["Senior", "Lead", "Manager", "Architect", "Principal"]
+    keywords: ["5+ years", "extensive experience", "team lead", "management"]
